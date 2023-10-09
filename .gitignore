@@ -1,0 +1,23 @@
+# Ignore sensitive database configuration information
+wp-config.php
+
+# Ignore all uploaded media files
+wp-content/uploads/
+
+# Ignore all cached files
+wp-content/cache/
+
+# Ignore all backup files
+wp-content/backups/
+
+# Ignore all log files
+wp-content/logs/
+
+# Ignore debug log files
+*.log
+
+# Ignore local development files
+local-config.php
+
+# Ignore third-party library files
+vendor/

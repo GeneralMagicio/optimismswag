@@ -9,8 +9,8 @@
 
             <div class="col-12 col-lg-3">
                 <div class="footer-first">
-                    <div class="text"><?php _e('are you an Impact DAO?', 'template'); ?></div>
-                    <a href="" class="btn-join"><?php _e('JOIN THE IMPACT SHOP', 'template'); ?></a>
+                    <div class="text"><?php _e('are you an Optimism DAO?', 'template'); ?></div>
+                    <a href="https://www.optimism.io/" class="btn-join" target="_blank"><?php _e('JOIN OUR PLATFORM', 'template'); ?></a>
                 </div>
             </div>
 
@@ -44,10 +44,8 @@
 
                         <div class="col-12 col-md-2">
                             <div class="socials text-end">
-                                <a href="https://twitter.com/Generalmagicio"
+                                <a href="https://twitter.com/retropgf"
                                    class="twitter" target="_blank"><?php _e('Twitter', 'template'); ?></a>
-                                <a href="https://discord.gg/72HUmabwEs"
-                                   class="discord" target="_blank"><?php _e('Discord', 'template'); ?></a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +60,7 @@
                             Created and managed by
                         </div>
                         <div class="col-auto footer-third-right">
-                            <a href="https://www.generalmagic.io/" title="General Magic"><img src="<?php echo TEMPLATEDIR; ?>/images/gm-logo.svg" alt="General Magic Logo"></a>
+                            <a href="https://generalmagic.io/" title="General Magic"><img src="<?php echo TEMPLATEDIR; ?>/images/gm-logo.svg" alt="General Magic Logo"></a>
                         </div>
                     </div>
                 </div>

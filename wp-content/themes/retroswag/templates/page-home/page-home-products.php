@@ -1,24 +1,11 @@
 <?php
 
-$introData = getSpecificPostDataByCategory('post', 86);
+$introData = getSpecificPostDataByCategory('post', 29);
 
 $queryArgs = array(
     'post_type' => 'product',
-    'posts_per_page' => 6,
+    'posts_per_page' => 9,
     'post_status' => 'publish',
-    'tax_query' => array(
-        'relation' => 'AND',
-        array(
-            'taxonomy' => 'product_visibility',
-            'field' => 'name',
-            'terms' => 'exclude-from-catalog',
-            'operator' => 'NOT IN',
-        ),
-        array(
-            'taxonomy' => 'brand',
-            'operator' => 'EXISTS',
-        ),
-    ),
     'orderby' => 'menu_order',
 );
 
@@ -83,7 +70,7 @@ $query = new WP_Query($queryArgs);
                 <!-- start:product-list-pagination -->
                 <div id="product-pagination" class="product-list-pagination">
 
-                    <div class="loading blink-me">we started magic loading :) ....</div>
+                    <div class="loading blink-me">we started loading :) ....</div>
 
                     <?php
                     global $wp;

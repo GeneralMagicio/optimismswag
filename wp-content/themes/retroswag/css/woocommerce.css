@@ -31,18 +31,18 @@
 }
 
 .product-list a h2 {
-    font-family: 'Akira Expanded', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 1.625rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .product-list a:hover h2 {
-    color: #A569FF;
+    color: #FF0420;
 }
 
 .product-list .product-tag {
@@ -67,7 +67,7 @@
     line-height: 1.9375rem;
     letter-spacing: 6px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .product-list .add_to_cart_button,
@@ -77,22 +77,22 @@
     width: auto;
     padding: 1.3125em 5.8125em 1.3125em 5.8125em;
     border: none;
-    background: #00E4FE;
+    background: #FF0420;
     border-radius: 0;
-    font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.125rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #161718;
+    color: #FFFFFF;
+    border-radius: 16px;
 }
 
 .product-list .add_to_cart_button:hover,
 .woocommerce .home-product .product-list .add_to_cart_button:hover,
 .product-list .add_to_cart_button.loading {
-    background: #A569FF;
+    opacity: 0.75;
 }
 
 .product-list .added_to_cart.wc-forward {
@@ -236,7 +236,7 @@
     border-radius: 0;
     color: #FFFFFF;
     background-color: #323131;
-    border-color: #A569FF;
+    border-color: #FF0420;
 }
 
 .woocommerce .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
@@ -287,7 +287,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 
 .woocommerce div.product .btn-size:hover,
 .woocommerce div.product .btn-size.selected {
-    border-color: #A569FF;
+    border-color: #FF0420;
     background: #323131;
     color: #ffffff;
 }
@@ -308,7 +308,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 .woocommerce .btn-size-guide-holder a {
     display: inline-block;
     height: 59px;
-    border: 1px solid #A569FF;
+    border: 1px solid #FF0420;
     border-radius: 0;
     padding: 0.5em 3.5em;
     margin: 0 0.4em 0.6em 0;
@@ -319,7 +319,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
     line-height: 2.5rem;
     letter-spacing: 0.005em;
     text-align: center;
-    color: #A569FF !important;
+    color: #FF0420 !important;
     text-decoration: none;
 }
 
@@ -364,14 +364,14 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 .theme-gmswagimpact .woocommerce a.button.alt, .woocommerce button.button.alt:hover,
 .theme-gmswagimpact .woocommerce input.button.alt:hover,
 .theme-gmswagimpact .woocommerce .single_add_to_cart_button:hover {
-    background: #A569FF !important;
+    background: #FF0420 !important;
 }
 
 .theme-gmswagimpact .woocommerce-notices-wrapper .woocommerce-message,
 .theme-gmswagimpact .woocommerce-notices-wrapper .woocommerce-error {
     margin: 3em;
     padding: 1em 1em 1em 3em;
-    border-top: 3px solid #a46497;
+    border-top: 3px solid #FF0420;
     background: #323131;
     font-size: 1.125rem;
     color: #ffffff;
@@ -384,13 +384,13 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 .theme-gmswagimpact .woocommerce-notices-wrapper .woocommerce-message .button {
     border-radius: 0;
     background: #323131;
-    border: 1px solid #A569FF !important;
+    border: 1px solid #FF0420 !important;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.125rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #A569FF !important;
+    color: #FF0420 !important;
 }
 
 .theme-gmswagimpact .woocommerce-notices-wrapper .woocommerce-message .button:hover {
@@ -413,7 +413,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 }
 
 .theme-gmswagimpact.woocommerce div.product .woocommerce-tabs ul.tabs::before {
-    border-bottom-color: #A569FF;
+    border-bottom-color: #FF0420;
 }
 
 .theme-gmswagimpact.woocommerce div.product .woocommerce-tabs ul.tabs li {
@@ -426,7 +426,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 
 .theme-gmswagimpact.woocommerce div.product .woocommerce-tabs ul.tabs li:hover,
 .theme-gmswagimpact.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
-    background-color: #A569FF;
+    background-color: #FF0420;
 }
 
 .theme-gmswagimpact.woocommerce div.product .woocommerce-tabs ul.tabs li::before,
@@ -504,7 +504,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 }
 
 .cart-header .links-bread a:hover {
-    color: #A569FF;
+    color: #FF0420;
 }
 
 .cart-inside {
@@ -556,7 +556,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 
 .item-right-left .product-name h3 {
     margin: 0 0 1em 0;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -575,7 +575,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
     display: inline-block;
     min-width: 65px;
     height: 66px;
-    border: 1px solid #A569FF;
+    border: 1px solid #FF0420;
     border-radius: 0;
     padding: 0 0.5em;
     margin: 0 0.4em 0.4em 0;
@@ -599,7 +599,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
     position: static;
     min-width: 66px;
     height: 66px;
-    border: 1px solid #A569FF;
+    border: 1px solid #FF0420;
     border-radius: 0;
     margin: 0 0.4em 0.4em 0.4em;
     background: url("../images/icon-bin.svg") center center no-repeat;
@@ -663,7 +663,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
     background-color: #161718;
     border: 1px solid #945EE6;
     padding: 0.5em 1em;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
@@ -727,7 +727,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 .theme-gmswagimpact.woocommerce-cart .cart-collaterals .cart_totals .cart-subtotal span {
     display: inline-block;
     margin: 0 0 0 0.5em;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 1.875rem;
@@ -766,8 +766,8 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 }
 
 .theme-gmswagimpact.woocommerce-cart .cart-collaterals .cart_totals .checkout-button:hover {
-    border-color: #A569FF;
-    background: #A569FF !important;
+    border-color: #FF0420;
+    background: #FF0420 !important;
 }
 
 .theme-gmswagimpact.woocommerce-cart .cart-collaterals .cart_totals .checkout-button.continue {
@@ -817,7 +817,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 }
 
 .theme-gmswagimpact .button.wc-backward:hover {
-    background: #A569FF !important;
+    background: #FF0420 !important;
 }
 
 .theme-gmswagimpact .blockUI.blockOverlay, .loader {
@@ -838,7 +838,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 
 .product-quantity-div {
     height: 66px;
-    border-color: #A569FF;
+    border-color: #FF0420;
     line-height: 66px;
     color: #ffffff;
 }
@@ -868,8 +868,8 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
     color: #FFFFFF;
 }
 
-.content-checkout .subtotal .cart-subtotal.total-sub div:last-child ,
-.content-checkout .subtotal .cart-subtotal.total-sub div:last-child span{
+.content-checkout .subtotal .cart-subtotal.total-sub div:last-child,
+.content-checkout .subtotal .cart-subtotal.total-sub div:last-child span {
     display: inline-block;
     margin: 0 0 0 0.5em !important;;
     font-family: 'Space Grotesk', sans-serif !important;;
@@ -896,7 +896,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 .content-checkout .subtotal h3 span {
     display: inline-block;
     margin: 0 0 0 0.5em;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 1.875rem;
@@ -969,7 +969,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
     background-color: #161718;
     border: 1px solid #945EE6;
     padding: 0.5em 1em;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
@@ -1004,7 +1004,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
 .content-checkout .woocommerce .col2-set .col-1 #billing_country_field .select2-container .select2-selection--single .select2-selection__rendered,
 .content-checkout .woocommerce .col2-set .col-1 #billing_state_field .select2-container .select2-selection--single .select2-selection__rendered {
     padding-left: 1em;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
@@ -1066,7 +1066,7 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 300;
     font-size: 1.5em;
@@ -1148,13 +1148,13 @@ html .theme-gmswagimpact.woocommerce div.product form.cart .reset_variations {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 300;
     font-size: 1.5em;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-    color: #A569FF;
+    color: #FF0420;
 }
 
 #payment_review_heading {
@@ -1209,7 +1209,7 @@ html .theme-gmswagimpact .woocommerce-checkout #payment .payment_method_cpwcw.pa
     background-color: #161718;
     border: 1px solid #945EE6;
     padding: 0.5em 1em;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
@@ -1237,7 +1237,7 @@ html .theme-gmswagimpact .woocommerce-checkout #payment .payment_method_cpwcw.pa
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 300;
     font-size: 1.5em;
@@ -1331,7 +1331,7 @@ html .theme-gmswagimpact .woocommerce-checkout #payment .payment_method_cpwcw.pa
     margin: 0 0 0.5em 0;
     border: none;
     border-bottom: 1px solid #945EE6;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -1442,7 +1442,7 @@ html .theme-gmswagimpact .woocommerce-checkout #payment .payment_method_cpwcw.pa
 
 .content-thanks .total-over .row-over .woocommerce-Price-amount.amount,
 .content-thanks .total-over .row-over div:last-child {
-    font-family: 'Space Grotesk', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem !important;

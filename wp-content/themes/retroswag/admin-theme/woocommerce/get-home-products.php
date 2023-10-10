@@ -19,7 +19,7 @@ function get_home_products()
 
         $queryArgs = array(
             'post_type' => 'product',
-            'posts_per_page' => 6,
+            'posts_per_page' => 9,
             'paged' => $page,
             'post_status' => 'publish',
             'tax_query' => array(

@@ -111,15 +111,19 @@ input:focus, input.form-control:focus {
     display: block;
     width: 16px;
     height: 16px;
-    background: #A569FF;
+    background: #ffffff;
     right: -4px;
     top: -8px;
     text-align: center;
     border-radius: 50%;
     text-indent: 0;
     font-size: 0.75em;
-    color: #ffffff;
+    color: #FF0420;
     text-decoration: none;
+}
+
+.cart-icon:hover .btn-cart-top-count {
+    background: #ccc;
 }
 
 .header .search-icon {
@@ -134,18 +138,18 @@ input:focus, input.form-control:focus {
 .header .search-box form {
     display: inline-flex;
     width: 290px;
-    background-color: #262626;
+    background-color: #FFFFFF;
     border-radius: 4px;
     padding: 0.5em 0.25em 0.5em 1em;
 }
 
 .header .search-box form input[type="text"] {
     width: 100%;
-    background-color: #262626;
+    background-color: #FFFFFF;
     padding: 0;
     border: none;
     border-radius: 4px;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .header .search-box form input[type=submit] {
@@ -278,8 +282,8 @@ iframe .hs-input {
 }
 
 .header #connectHeader #myBtn {
-    background: #a569ff;
-    border: 1px solid #a569ff;
+    background: #FF0420;
+    border: 1px solid #FF0420;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -289,278 +293,7 @@ iframe .hs-input {
 
 .header #connectHeader #myBtn:hover {
     background: #fff;
-    color: #a569ff;
-}
-
-/* ==========================================================================
-   Home Header
-   ========================================================================== */
-
-.home-header {
-    margin-bottom: 0;
-}
-
-.home-header .container-fluid {
-    padding: 0;
-}
-
-.home-header .text {
-    overflow: hidden;
-    position: relative;
-    height: 1.75em;
-    background: #00E4FE;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.75rem;
-    text-align: center;
-    letter-spacing: 3.5px;
-    text-transform: uppercase;
-    text-overflow: clip;
-}
-
-.home-header .text-inside {
-    position: absolute;
-    word-break: normal;
-}
-
-/* ==========================================================================
-   Home DAO Intro
-   ========================================================================== */
-
-.home-dao-intro {
-    padding: 112px 0;
-}
-
-.home-dao-intro-inside {
-    padding: 0 7em;
-}
-
-.home-dao-intro h2 {
-    margin: 0;
-    font-family: 'Archivo Black', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 105px;
-    line-height: 0.8;
-    color: #A569FF
-}
-
-.home-dao-intro h3 {
-    margin: 0;
-    font-family: 'Archivo Black', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 105px;
-    line-height: 0.8;
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #A569FF;
-}
-
-.home-dao-intro .text {
-    margin: 0 0 0.5em 0;
-    font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 140%;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-}
-
-.home-dao-intro .link {
-    display: inline-block;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #A569FF;
-    padding: 0 30px 0 0;
-    background: url("../images/icon-arrow-right.svg") right center no-repeat;
-}
-
-.home-dao-intro .link:hover {
-    color: #945EE6;
-}
-
-/* ==========================================================================
-   Home Brands
-   ========================================================================== */
-
-.home-brands {
-    padding: 0 0 10px 0;
-    background: url("../images/brand-bg-link.png") left 150px repeat-x;
-}
-
-.home-brands-inside {
-    padding: 0 0 0 5em;
-}
-
-.home-brands .slider-wrapper {
-    overflow: hidden;
-}
-
-.home-brands .slider-wrapper-holder {
-    display: flex;
-    overflow-x: scroll;
-    justify-content: space-between;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    -webkit-overflow-scrolling: touch;
-    margin: 0 -20px;
-    cursor: pointer;
-}
-
-.home-brands .slider-wrapper-holder::-webkit-scrollbar {
-    width: 0.2em;
-    background-color: transparent;
-}
-
-.home-brands .slider-wrapper-holder::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.home-brands .slider-wrapper-item {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 24%;
-    margin: 0 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.home-brands .slider-wrapper-item .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 3em;
-    background: #161718;
-    border: 1px solid #A569FF;
-    border-radius: 32px;
-    text-align: center;
-}
-
-.home-brands .slider-wrapper-item .card a {
-    position: relative;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 250px;
-    text-decoration: none;
-    padding: 0;
-}
-
-.home-brands .slider-wrapper-item .card a img {
-    margin: 0 0 80px 0;
-}
-
-.home-brands .slider-wrapper-item .card a span {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #A569FF;
-    padding: 0 30px 0 0;
-    background: url("../images/icon-arrow-right.svg") right center no-repeat;
-}
-
-.home-brands .slider-wrapper-item .card a:hover span {
-    color: #ffffff;
-}
-
-.slider-wrapper-footer {
-    padding: 37px 0 0 3em;
-}
-
-.slider-wrapper-footer a {
-    display: inline-block;
-    width: 49px;
-    height: 49px;
-    margin: 0 5px 0 0;
-    background-color: rgba(165, 105, 255, 0.2);
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 1px solid #A569FF;
-    text-indent: -99999px;
-    cursor: pointer;
-}
-
-.slider-wrapper-footer a:hover {
-    background-color: #A569FF;
-}
-
-.slider-wrapper-footer .arrow-prev {
-    background-image: url("../images/icon-arrow-left-white.svg");
-}
-
-.slider-wrapper-footer .arrow-next {
-    background-image: url("../images/icon-arrow-right-white.svg");
-}
-
-/* ==========================================================================
-   Home Vibes
-   ========================================================================== */
-
-.home-vibes-inside {
-    padding: 155px 8em 100px 8em;
-    background: url("../images/bk1.png") -50px -220px no-repeat;
-    background-size: 130%;
-}
-
-.home-vibes-inside h2 {
-    margin: 0;
-    font-family: 'Archivo Black', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 110px;
-    line-height: 0.8;
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #00E4FE;
-}
-
-.home-vibes-inside h3 {
-    margin: 0;
-    font-family: 'Archivo Black', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 110px;
-    line-height: 0.8;
-    color: #00E4FE
-}
-
-.home-vibes-inside .title {
-    margin: 0 0 14px 0;
-}
-
-.home-vibes-inside .text {
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    color: #FF0420;
 }
 
 /* ==========================================================================
@@ -568,30 +301,31 @@ iframe .hs-input {
    ========================================================================== */
 
 .section-title {
-    margin: 0 0 4.18em 0;
+    margin: 3em 0 4.18em 0;
     text-align: center;
 }
 
 .section-title h2 {
     font-style: normal;
-    font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
     font-size: 40px;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .section-title h3 {
-    font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem;
+    font-style: italic;
     line-height: 1.625rem;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #A569FF;
+    color: #212327;
 }
 
 .home-product {
@@ -627,13 +361,14 @@ iframe .hs-input {
     margin: 0 0.15em;
     text-align: center;
     line-height: 53px;
-    background: #A569FF;
+    background: #FF0420;
     font-style: normal;
     font-weight: 700;
     font-size: 1.5rem;
     letter-spacing: 0.155em;
     text-transform: uppercase;
     color: #FFFFFF;
+    border-radius: 8px;
 }
 
 .pagination .page-numbers.current,
@@ -709,7 +444,7 @@ iframe .hs-input {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #A569FF;
+    color: #FF0420;
 }
 
 .magical-title a:hover {
@@ -890,7 +625,7 @@ iframe .hs-input {
     font-size: 24px;
     line-height: 31px;
     text-align: center;
-    color: #A569FF;
+    color: #FF0420;
 }
 
 /* ==========================================================================
@@ -1076,7 +811,7 @@ iframe .hs-input {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #A569FF;
+    color: #FF0420;
 }
 
 .back-holder a:hover {
@@ -1191,7 +926,7 @@ iframe .hs-input {
 
 .brand-data .btn-website {
     margin: 0 8px 0 0;
-    border: 1px solid #A569FF;
+    border: 1px solid #FF0420;
     border-radius: 30px;
     padding: 5px 13px 5px 35px;
     background: url("../images/icon-globe-purple.svg") 7px center no-repeat;
@@ -1200,7 +935,7 @@ iframe .hs-input {
     font-size: 14px;
     line-height: 160%;
     letter-spacing: 0.05em;
-    color: #A569FF;
+    color: #FF0420;
     text-decoration: none;
 }
 
@@ -1209,7 +944,7 @@ iframe .hs-input {
     margin: 0 8px 0 0;
     width: 31px;
     height: 31px;
-    border: 1px solid #A569FF;
+    border: 1px solid #FF0420;
     border-radius: 50%;
     text-indent: -999999px;
     background: url("../images/icon-twitter-purple.svg") center center no-repeat;
@@ -1220,7 +955,7 @@ iframe .hs-input {
     margin: 0 8px 0 0;
     width: 31px;
     height: 31px;
-    border: 1px solid #A569FF;
+    border: 1px solid #FF0420;
     border-radius: 50%;
     text-indent: -999999px;
     background: url("../images/icon-discord-purple.svg") center center no-repeat;
@@ -1251,12 +986,12 @@ iframe .hs-input {
     line-height: 26px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #A569FF;
+    color: #FF0420;
 }
 
 .category-product-list .dropdown-toggle,
 .product-top .dropdown-toggle {
-    border: 1px solid #A569FF;
+    border: 1px solid #FF0420;
     border-radius: 30px;
     padding: 5px 13px 5px 37px;
     background: url("../images/icon-filter.svg") 13px center no-repeat;
@@ -1265,7 +1000,7 @@ iframe .hs-input {
     font-size: 14px;
     line-height: 160%;
     letter-spacing: 0.05em;
-    color: #A569FF;
+    color: #FF0420;
     text-decoration: none;
 }
 
@@ -1286,7 +1021,7 @@ iframe .hs-input {
 
 .category-product-list .dropdown-menu li a,
 .product-top .dropdown-menu li a {
-    color: #A569FF;
+    color: #FF0420;
 }
 
 .category-product-list .dropdown-menu li a.active,
@@ -1309,7 +1044,7 @@ iframe .hs-input {
     height: 100%;
     padding: 3em;
     background: #161718;
-    border: 1px solid #A569FF;
+    border: 1px solid #FF0420;
     border-radius: 32px;
     text-align: center;
 }
@@ -1338,7 +1073,7 @@ iframe .hs-input {
     line-height: 18px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #A569FF;
+    color: #FF0420;
     padding: 0 30px 0 0;
     background: url("../images/icon-arrow-right.svg") right center no-repeat;
 }
@@ -1358,7 +1093,7 @@ Mint
 .nft-check .intro {
     margin: 0 0 2em 0;
     padding: 1em;
-    border: 1px solid #a569ff;
+    border: 1px solid #FF0420;
     text-align: center;
     font-size: 1.125rem;
 }
@@ -1376,8 +1111,8 @@ Mint
 }
 
 .nft-check .buttons #myBtn {
-    background: #a569ff;
-    border: 1px solid #a569ff;
+    background: #FF0420;
+    border: 1px solid #FF0420;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -1387,7 +1122,7 @@ Mint
 
 .nft-check .buttons #myBtn:hover {
     background: #fff;
-    color: #a569ff;
+    color: #FF0420;
 }
 
 .nft-check .buttons .mint {
@@ -1414,7 +1149,7 @@ Mint
     padding: 0;
     margin: 0;
     font-weight: bold;
-    color: #A569FF;
+    color: #FF0420;
     font-size: 1.125rem;
     cursor: pointer;
 }
@@ -1573,7 +1308,7 @@ Mint
 
     .navbar-toggler:focus {
         box-shadow: none;
-         color: #A569FF;
+         color: #FF0420;
     }
 
     .navbar-toggler rect {
@@ -1581,13 +1316,13 @@ Mint
     }
 
     .navbar-toggler:focus rect{
-        fill: #A569FF;
+        fill: #FF0420;
     }
 
     #navbarsDefault {
         margin-top: 1em;
         padding: 1em 0;
-        border-top: 1px solid #A569FF;
+        border-top: 1px solid #FF0420;
     }
 
     #navbarsDefault ul {

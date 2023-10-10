@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('fonts/fonts.css');
+.hbspt-form,
+.hbspt-form form,
+.hbspt-form form h1,
+.hbspt-form form p,
+.hbspt-form form span{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
+.hbspt-form form h1{
+    font-family: 'Akira Expanded', sans-serif;
+    padding: 2em 0 0 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.hbspt-form .hubspot-link__container.sproket{
+    display: none;
+}

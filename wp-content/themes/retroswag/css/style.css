@@ -581,7 +581,7 @@ iframe .hs-input {
    ==========================================================================> */
 
 .content {
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .categories-list {
@@ -662,7 +662,7 @@ iframe .hs-input {
 
 .content-single-main {
     padding: 3em 0;
-    background-color: #161718;
+    background-color: #FFFFFF;
 }
 
 .single-main-inside {
@@ -677,7 +677,7 @@ iframe .hs-input {
     line-height: 120%;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .content-single-main h3,
@@ -685,7 +685,7 @@ iframe .hs-input {
 .content-single-main h5 {
     margin: 0 0 1em 0;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .content-single-main p {

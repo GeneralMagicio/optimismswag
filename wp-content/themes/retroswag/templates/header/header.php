@@ -63,7 +63,7 @@
                         <input type="submit" value="<?php _e('Search', 'template'); ?>" />
                     </form>
                 </div>
-                <a href="<?php echo wc_get_cart_url(); ?>" class="d-inline-block cart-icon">Cart Link<span class="btn-cart-top-count"></span></a>
+                <a href="<?php echo wc_get_cart_url(); ?>" class="d-inline-block cart-icon">Cart Link<span class="btn-cart-top-count"><?php echo WC()->cart->get_cart_contents_count(); ?></span></a>
                 <div id="connectHeader"></div>
             </div>
 

@@ -35,7 +35,7 @@
 .product-list a h2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.625rem;
     line-height: 120%;
     letter-spacing: 0.05em;
@@ -488,7 +488,7 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 .content-cart {
     margin: 0 0 7em 0;
     padding: 0 0 4em 0;
-    background-color: #161718;
+    background-color: #FFFFFF;
 }
 
 .cart-header {
@@ -499,12 +499,12 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 .cart-header h2 {
     margin: 0 0 0.25em 0;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 3.875rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .cart-header .links-bread,
@@ -520,11 +520,11 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 
 .cart-header .links-bread a.active,
 .cart-header .links-bread span.active {
-    color: #ffffff;
+    color: #FF0420;
 }
 
 .cart-header .links-bread a:hover {
-    color: #FF0420;
+    color: #6F7689;
 }
 
 .cart-inside {
@@ -563,27 +563,26 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 
 .item-right-left .product-name a {
     display: block;
-    font-family: 'Akira Expanded';
+    margin: 0 0 0.5em 0;
     font-style: normal;
-    font-weight: 800;
-    font-size: 2.5rem;
+    font-weight: 700;
+    font-size: 2rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
     text-decoration: none;
 }
 
 .item-right-left .product-name h3 {
     margin: 0 0 1em 0;
-
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 6px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .product-bellow-title {
@@ -596,10 +595,10 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     min-width: 65px;
     height: 66px;
     border: 1px solid #FF0420;
-    border-radius: 0;
+    border-radius: 16px;
     padding: 0 0.5em;
     margin: 0 0.4em 0.4em 0;
-    background: #161718;
+    background: #FF0420;
     font-style: normal;
     font-weight: 400;
     font-size: 1.5em;
@@ -607,7 +606,7 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .product-bellow-title .product-quantity {
@@ -620,17 +619,18 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     min-width: 66px;
     height: 66px;
     border: 1px solid #FF0420;
-    border-radius: 0;
+    border-radius: 16px;
     margin: 0 0.4em 0.4em 0.4em;
     background: url("../images/icon-bin.svg") center center no-repeat;
-    background-color: #161718;
+    background-color: #FF0420;
     text-indent: -9999px;
 }
 
 .woocommerce .product-bellow-title a.remove:hover {
-    border-color: #ffffff;
+    opacity: 0.75;
+    border-color: #FF0420;
     background: url("../images/icon-bin.svg") center center no-repeat;
-    background-color: #161718;
+    background-color: #FF0420;
 }
 
 .item-right-right {
@@ -664,8 +664,8 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     gap: 2em;
     justify-content: center;
     align-items: center;
-    margin: 0 0 2em 0;
-    padding: 0 0 1em 0;
+    margin: 0 0 3em 0;
+    padding: 0 0 2em 0;
     border-bottom: 1px solid #6F7689;
 }
 
@@ -680,17 +680,17 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 }
 
 .theme-retroswag.woocommerce-cart .coupon input {
-    background-color: #161718;
-    border: 1px solid #945EE6;
+    background-color: #FFFFFF;
+    border: 1px solid #FF0420;
     padding: 0.5em 1em;
-
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
     line-height: 0%;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #212327;
+    border-radius: 16px;
 }
 
 .theme-retroswag.woocommerce-cart .actions button {
@@ -698,15 +698,19 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     width: auto;
     padding: 1.3125em 6.8125em !important;
     border: none;
-    border-radius: 0;
-    background: #00E4FE !important;
+    border-radius: 16px;
+    background: #FF0420 !important;
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.125rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #161718 !important;
+    color: #FFFFFF !important;
+}
+
+.theme-retroswag.woocommerce-cart .actions button:hover{
+    opacity: 0.75;
 }
 
 .theme-retroswag.woocommerce-cart .cart-collaterals {
@@ -734,26 +738,24 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 
 .theme-retroswag.woocommerce-cart .cart-collaterals .cart_totals .cart-subtotal {
     margin: 0 0 1.75em 0;
-    font-family: 'Akira Expanded', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.625rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .theme-retroswag.woocommerce-cart .cart-collaterals .cart_totals .cart-subtotal span {
     display: inline-block;
     margin: 0 0 0 0.5em;
-
     font-style: normal;
     font-weight: 400;
     font-size: 1.875rem;
     letter-spacing: 6px;
     text-transform: uppercase;
-    color: #FF913E;
+    color: #FF0420;
 }
 
 .theme-retroswag.woocommerce-cart .cart-collaterals .cart_totals .cart-subtotal.total-sub {
@@ -772,9 +774,9 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     display: block;
     width: 100%;
     padding: 1.3125em 2em !important;
-    border: 1px solid #00E4FE;
-    border-radius: 0;
-    background: #00E4FE !important;
+    border: 1px solid #FF0420;
+    border-radius: 16px;
+    background: #FF0420 !important;
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
@@ -782,10 +784,12 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     text-align: center;
-    color: #161718 !important;
+    color: #ffffff !important;
+    opacity: 1;
 }
 
 .theme-retroswag.woocommerce-cart .cart-collaterals .cart_totals .checkout-button:hover {
+    opacity: 0.75;
     border-color: #FF0420;
     background: #FF0420 !important;
 }
@@ -880,7 +884,7 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     margin: 0 0 0 0;
     font-family: 'Akira Expanded', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.625rem;
     line-height: 120%;
     letter-spacing: 0.05em;
@@ -898,31 +902,29 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     font-size: 1.875rem !important;;
     letter-spacing: 6px !important;;
     text-transform: uppercase;
-    color: #FF913E !important;
+    color: #FF0420 !important;
 }
 
 .content-checkout .subtotal h3 {
     margin: 0 0 0 0;
-    font-family: 'Akira Expanded', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.625rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .content-checkout .subtotal h3 span {
     display: inline-block;
     margin: 0 0 0 0.5em;
-
     font-style: normal;
     font-weight: 400;
     font-size: 1.875rem;
     letter-spacing: 6px;
     text-transform: uppercase;
-    color: #FF913E;
+    color: #FF0420;
 }
 
 .content-checkout .woocommerce-form-coupon-toggle,
@@ -949,12 +951,12 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     width: 100%;
     margin: 0.6em 0 1em 0;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .content-checkout .woocommerce-checkout h3.form-row {
@@ -973,7 +975,7 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 1px solid #6F7689;
+    border-bottom: 1px solid #FF0420;
     padding: 0 0 2em 0;
     margin: 0 0 2em 0;
 }
@@ -986,23 +988,24 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 .content-checkout .woocommerce .col2-set .col-1 input[type="text"],
 .content-checkout .woocommerce .col2-set .col-1 input[type="email"],
 .content-checkout .woocommerce .col2-set .col-1 input[type="tel"] {
-    background-color: #161718;
-    border: 1px solid #945EE6;
+    background-color: #FFFFFF;
+    border: 1px solid #FF0420;
+    border-radius: 16px;
     padding: 0.5em 1em;
-
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
     line-height: 0%;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #212327;
 }
 
 .content-checkout .woocommerce .col2-set .col-1 input[type="text"]::placeholder,
 .content-checkout .woocommerce .col2-set .col-1 input[type="email"]::placeholder,
 .content-checkout .woocommerce .col2-set .col-1 input[type="tel"]::placeholder {
-    color: #959DB2;
+    color: #212327;
+    opacity: 0.75;
 }
 
 .content-checkout .woocommerce .col2-set .col-1 #billing_email_field,
@@ -1016,22 +1019,21 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 .content-checkout .woocommerce .col2-set .col-1 #billing_country_field .select2-container--default .select2-selection--single,
 .content-checkout .woocommerce .col2-set .col-1 #billing_state_field .select2-container--default .select2-selection--single {
     height: 58px;
-    background-color: #161718;
-    border: 1px solid #945EE6;
-    border-radius: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #FF0420;
+    border-radius: 16px;
 }
 
 .content-checkout .woocommerce .col2-set .col-1 #billing_country_field .select2-container .select2-selection--single .select2-selection__rendered,
 .content-checkout .woocommerce .col2-set .col-1 #billing_state_field .select2-container .select2-selection--single .select2-selection__rendered {
     padding-left: 1em;
-
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
     line-height: 58px;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #212327;
 }
 
 .content-checkout .woocommerce .col2-set .col-1 #billing_country_field .select2-container--default .select2-selection--single .select2-selection__arrow,
@@ -1059,7 +1061,7 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 }
 
 .woocommerce-shipping-totals {
-    border-bottom: 1px solid #6F7689;
+    border-bottom: 1px solid #FF0420;
     padding: 0 0 4em 0;
     margin: 0 0 4em 0;
 }
@@ -1081,18 +1083,17 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     margin-right: 0.5em;
     margin-bottom: 0.5em;
     cursor: pointer;
-    border: 1px solid #945EE6;
+    border: 1px solid #FF0420;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
     font-style: normal;
     font-weight: 300;
     font-size: 1.5em;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .payment-method-holder input,
@@ -1111,7 +1112,7 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     left: 1em;
     height: 25px;
     width: 25px;
-    border: 1px solid #945EE6;
+    border: 1px solid #FF0420;
     background-color: #161718;
     border-radius: 50%;
 }
@@ -1135,7 +1136,7 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 .payment-method-holder input:checked ~ .checkmark:after,
 .method-item-left input:checked ~ .checkmark:after {
     display: block;
-    background: #945EE6;
+    background: #FF0420;
 }
 
 .payment-method-holder .checkmark:after,
@@ -1163,12 +1164,11 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
     margin-right: 0.5em;
     margin-bottom: 0.5em;
     cursor: pointer;
-    border: 1px solid #945EE6;
+    border: 1px solid #FF0420;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
     font-style: normal;
     font-weight: 300;
     font-size: 1.5em;
@@ -1182,11 +1182,11 @@ html .theme-retroswag.woocommerce div.product form.cart .reset_variations {
 }
 
 .theme-retroswag.woocommerce-checkout #payment {
-    background-color: #161718;
+    background-color: #FFFFFF;
 }
 
 .theme-retroswag .woocommerce-checkout #payment.woocommerce-checkout-payment {
-    background-color: #161718;
+    background-color: #FFFFFF;
 }
 
 html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payment_box {
@@ -1207,12 +1207,12 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
     margin: 0.6em 0 1em 0;
     margin-bottom: 1em;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.125rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .theme-retroswag.woocommerce-checkout .woocommerce #payment #stripe-payment-data .form-row {
@@ -1236,7 +1236,7 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
     line-height: 0%;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #212327;
 }
 
 #stripe-card-element::placeholder,
@@ -1247,23 +1247,22 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
 
 .payment-method-holder {
     position: relative;
-    width: 36%;
+    width: 100%;
     padding: 1em 1em 1em 3em;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
     cursor: pointer;
-    border: 1px solid #945EE6;
+    border: 1px solid #FF0420;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
     font-style: normal;
     font-weight: 300;
     font-size: 1.5em;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .payment-method-holder .checkmark {
@@ -1278,7 +1277,7 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
 
 .content-checkout .woocommerce-terms-and-conditions-wrapper {
     display: block;
-    padding: 0 3em;
+    padding: 0 3em 3em 3em;
     text-align: center;
 }
 
@@ -1303,24 +1302,31 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
     text-transform: uppercase;
     color: #6F7689 !important;
     text-decoration: none;
+    border-radius: 16px;
 }
 
 .content-checkout .btn-back:hover {
     border-color: #ffffff;
-    color: #ffffff !important;
+    color: #FFFFFF !important;
 }
 
 .content-checkout .woocommerce-error {
     margin: 1em;
     padding: 1em 1em 1em 3em;
+    border: 1px solid #b81c23;
     border-top: 3px solid #b81c23;
-    background: #323131;
+    background: #FFFFFF;
     font-size: 1.125rem;
-    color: #ffffff;
+    color: #212327;
 }
 
 .content-checkout .payment_box.payment_method_eh_stripe_checkout {
     display: none !important;
+}
+
+.theme-retroswag .woocommerce .woocommerce-customer-details address{
+    padding: 1em !important;
+    border: 1px solid #212327;
 }
 
 /* ==========================================================================
@@ -1350,27 +1356,25 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
     padding: 0.5em 0 0.5em 0;
     margin: 0 0 0.5em 0;
     border: none;
-    border-bottom: 1px solid #945EE6;
-
+    border-bottom: 1px solid #212327;
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 6px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .content-thanks .woocommerce-order-details__title {
     margin: 0 0 1.5em 0;
-    font-family: 'Akira Expanded', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .product-details-table-header {
@@ -1396,14 +1400,13 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
 .content-thanks .product-details-link,
 .content-thanks .product-details-link strong,
 .content-thanks .product-details-link a {
-    font-family: 'Akira Expanded', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.65rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
     text-decoration: none;
 }
 
@@ -1435,7 +1438,7 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
     line-height: 38px;
     letter-spacing: 6px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #FF0420;
 }
 
 .content-thanks .total-over {
@@ -1452,12 +1455,12 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
     padding: 0 0.5em 0 0;
     font-family: 'Akira Expanded', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.5rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .content-thanks .total-over .row-over .woocommerce-Price-amount.amount,
@@ -1468,19 +1471,19 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
     font-size: 1.25rem !important;
     letter-spacing: 6px;
     text-transform: uppercase;
-    color: #FF913E !important;;
+    color: #FF0420 !important;;
 }
 
 .content-thanks .woocommerce-customer-details .woocommerce-column__title {
     margin: 2em 0 1em 0;
     font-family: 'Akira Expanded', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2rem;
     line-height: 120%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #212327;
 }
 
 .content-thanks .woocommerce-customer-details address {
@@ -1537,7 +1540,7 @@ html .theme-retroswag .woocommerce-checkout #payment .payment_method_cpwcw.payme
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
 
     .product-list ul:nth-child(4) {
         display: block;

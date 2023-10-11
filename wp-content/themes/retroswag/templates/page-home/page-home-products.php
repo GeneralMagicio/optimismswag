@@ -38,7 +38,7 @@ $query = new WP_Query($queryArgs);
                 <div class="over"></div>
 
                 <!-- start:row -->
-                <div class="row g-1">
+                <div class="row g-4">
 
                     <?php $queryCounter = 1; ?>
 
@@ -67,31 +67,35 @@ $query = new WP_Query($queryArgs);
                 </div>
                 <!-- end:row -->
 
-                <!-- start:product-list-pagination -->
-                <div id="product-pagination" class="product-list-pagination">
+                <?php if( $query->found_posts > 9 ): ?>
 
-                    <div class="loading blink-me">we started loading :) ....</div>
+                    <!-- start:product-list-pagination -->
+                    <div id="product-pagination" class="product-list-pagination">
 
-                    <?php
-                    global $wp;
+                        <div class="loading blink-me">we started loading :) ....</div>
 
-                    $numberOfPages = $query->max_num_pages;
+                        <?php
+                        global $wp;
 
-                    $end_size = 1;
-                    $mid_size = 3;
-                    $page = 1;
-                    $queryString = '';
-                    $currentUrl = home_url($wp->request);
+                        $numberOfPages = $query->max_num_pages;
 
-                    ?>
-                    <!-- start:pagination-over -->
-                    <div class="pagination-over">
-                        <?php getPagination($currentUrl, $queryString, $numberOfPages, $page, $mid_size, $end_size); ?>
+                        $end_size = 1;
+                        $mid_size = 3;
+                        $page = 1;
+                        $queryString = '';
+                        $currentUrl = home_url($wp->request);
+
+                        ?>
+                        <!-- start:pagination-over -->
+                        <div class="pagination-over">
+                            <?php getPagination($currentUrl, $queryString, $numberOfPages, $page, $mid_size, $end_size); ?>
+                        </div>
+                        <!-- end:pagination-over -->
+
                     </div>
-                    <!-- end:pagination-over -->
+                    <!-- end:product-list-pagination -->
 
-                </div>
-                <!-- end:product-list-pagination -->
+                <?php endif; ?>
 
             </div>
             <!-- end:product-list -->

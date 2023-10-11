@@ -26,7 +26,7 @@
     <!-- end:page title -->
 
     <!-- start:stylesheets -->
-    <link rel="stylesheet" href="<?php echo TEMPLATEDIR; ?>/style.css?ver=1.1">
+    <link rel="stylesheet" href="<?php echo TEMPLATEDIR; ?>/style.css?ver=1.11">
     <!-- end:stylesheets -->
 
     <?php wp_head(); ?>

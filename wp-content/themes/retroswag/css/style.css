@@ -633,7 +633,7 @@ iframe .hs-input {
 }
 
 .back-holder {
-    margin: 0 0 5.125em 0;
+    margin: 0 0 1em 0;
     text-align: center;
 }
 
@@ -653,7 +653,7 @@ iframe .hs-input {
 
 .back-holder a:hover {
     background: url("../images/arrow-left-white.svg") left center no-repeat;
-    color: #ffffff;
+    color: #212327;
 }
 
 /* ==========================================================================

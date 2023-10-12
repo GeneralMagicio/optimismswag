@@ -5,6 +5,8 @@
 ?>
 <?php get_header(); ?>
 
+    <?php include 'templates/page-home/page-home-intro.php'; ?>
+
     <?php include 'templates/page-home/page-home-products.php'; ?>
 
     <?php get_template_part('templates/page-home/page-home-footer', 'intro'); ?>

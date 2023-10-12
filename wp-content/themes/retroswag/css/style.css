@@ -297,6 +297,18 @@ iframe .hs-input {
 }
 
 /* ==========================================================================
+   Home Intro
+   ========================================================================== */
+
+.home-intro {
+    margin: 3em 0 0 0;
+}
+
+.home-intro img {
+    border-radius: 16px;
+}
+
+/* ==========================================================================
    Home Products
    ========================================================================== */
 
@@ -698,7 +710,7 @@ iframe .hs-input {
     text-decoration: none;
 }
 
-.content-single-main .faq{
+.content-single-main .faq {
     margin: 2em 0 1em 0;
 }
 
@@ -733,7 +745,7 @@ iframe .hs-input {
     justify-content: center;
 }
 
-.brand-data .logo.small-padding{
+.brand-data .logo.small-padding {
     padding: 3em 3em;
 }
 
@@ -1145,14 +1157,14 @@ Mint
 
     .navbar-toggler:focus {
         box-shadow: none;
-         color: #FF0420;
+        color: #FF0420;
     }
 
     .navbar-toggler rect {
         fill: #ffffff;
     }
 
-    .navbar-toggler:focus rect{
+    .navbar-toggler:focus rect {
         fill: #FF0420;
     }
 
@@ -1292,7 +1304,7 @@ Mint
         margin: 0 0 2em 0;
     }
 
-    .pagination .page-numbers{
+    .pagination .page-numbers {
         display: inline-flex;
         padding: 0.5em 1em;
         margin-bottom: 0.5em;
@@ -1357,7 +1369,7 @@ Mint
 
 @media (max-width: 425px) {
 
-    .header #connectHeader #myBtn{
+    .header #connectHeader #myBtn {
         padding: 5px 10px;
         font-size: 12px;
     }
@@ -1366,7 +1378,7 @@ Mint
         width: 80% !important;
     }
 
-    .profileHolder .connectButtonName .imageHolder{
+    .profileHolder .connectButtonName .imageHolder {
         display: none;
     }
 

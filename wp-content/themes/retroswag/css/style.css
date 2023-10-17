@@ -109,10 +109,10 @@ input:focus, input.form-control:focus {
 .cart-icon .btn-cart-top-count {
     position: absolute;
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 19px;
+    height: 19px;
     background: #ffffff;
-    right: -4px;
+    right: -8px;
     top: -8px;
     text-align: center;
     border-radius: 50%;
@@ -1157,7 +1157,7 @@ Mint
 
     .navbar-toggler:focus {
         box-shadow: none;
-        color: #FF0420;
+        color: #ffffff;
     }
 
     .navbar-toggler rect {
@@ -1165,13 +1165,13 @@ Mint
     }
 
     .navbar-toggler:focus rect {
-        fill: #FF0420;
+        fill: #ffffff;
     }
 
     #navbarsDefault {
         margin-top: 1em;
         padding: 1em 0;
-        border-top: 1px solid #FF0420;
+        border-top: 1px solid #ffffff;
     }
 
     #navbarsDefault ul {
